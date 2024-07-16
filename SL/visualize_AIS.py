@@ -8,7 +8,7 @@ import utm
 from matplotlib.ticker import ScalarFormatter
 from tqdm import tqdm
 
-from train_supervised import CPANet
+from train import CPANet
 
 
 def single_forecast(data : dict, n_obs_est : int, n_forecasts : int, n_obs_pred : int, model : CPANet) -> tuple[np.ndarray]:
