@@ -429,13 +429,6 @@ class AIS_Env(gym.Env):
             # usual
             state_TSs = sorted(state_TSs, key=lambda x: x[-1], reverse=False)
 
-            # mask dcpa
-            state_TSs_masked = []
-            for el in state_TSs:
-                el[-1] = 1. if el[-1] > 0. else -1.
-                state_TSs_masked.append(el)
-            state_TSs = state_TSs_masked
-
         # or according to Euclidean distance
         else:
             state_TSs = sorted(state_TSs, key=lambda x: x[0], reverse=False)
