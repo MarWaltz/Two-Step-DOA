@@ -20,7 +20,10 @@ If you find the work useful, please cite it as follows:
 @article{hart2023two,
   title={Two-step dynamic obstacle avoidance},
   author={Hart, Fabian and Waltz, Martin and Okhrin, Ostap},
-  journal={arXiv preprint arXiv:2311.16841},
-  year={2023}
+  journal={Knowledge-Based Systems},
+  pages={112402},
+  year={2024},
+  volume={302},
+  publisher={Elsevier}
 }
 ```
